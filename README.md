@@ -5,7 +5,7 @@
 
 ![clean](https://user-images.githubusercontent.com/83181304/127233500-ac36c3a8-6fea-4efc-a463-1e8778a38064.jpeg)
 
-O objetivo do projeto é criar uma Single Page Application de uma loja de revistas em quadrinhos utilizando API da Marvel, demonstrar como aplicar técnicas angulares comuns e usar alguns dos componentes de Material Angular.
+O objetivo do projeto é criar uma Single Page Application de uma loja de revistas em quadrinhos utilizando API da Marvel, demonstrar como aplicar técnicas do Angular comuns e usar alguns dos componentes de Material Angular.
 Permite encontrar personagens e visualizar informações como detalhes básicos e histórias em quadrinhos.
 
 ## Configuração
