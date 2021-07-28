@@ -1,29 +1,27 @@
-# Marvel_API
-### Single Page Application de uma loja de revistas em quadrinhos utilizando uma API da Marvel.
-#### Projeto gerado com Angular V12.1.3
+# MarvelApp
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
 
-![clean](https://user-images.githubusercontent.com/83181304/127233500-ac36c3a8-6fea-4efc-a463-1e8778a38064.jpeg)
+## Development server
 
-O objetivo do projeto é criar uma Single Page Application de uma loja de revistas em quadrinhos utilizando API da Marvel, demonstrar como aplicar técnicas do Angular comuns e usar alguns dos componentes de Material Angular.
-Permite encontrar personagens e visualizar informações como detalhes básicos e histórias em quadrinhos.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Configuração
-Clone este repositório para sua área de trabalho e execute npm install para instalar todas as dependências.
+## Code scaffolding
 
-## Uso
-Antes de começar, é preciso entrar no site https://developer.marvel.com/ para fazer o cadastro e obter a PLUBLIC_KEY e PRIVATE_KEY, depois é preciso criar
-um MD5 Hash Generator. Você deve adquirir uma chave de API: https://developer.marvel.com . Depois de obter uma, substitua a apiKey variável no src/app/characters/character/shared/characters-api.service.ts.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Execute ng serve para um servidor de desenvolvimento. Navegue até http://localhost:4200/. O aplicativo será recarregado automaticamente.
+## Build
 
-## Mais ajuda
-Para obter mais ajuda sobre o uso do Angular CLI confira o https://angular.io/cli
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Running unit tests
 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Further help
 
-
-
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
