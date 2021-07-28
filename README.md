@@ -1,26 +1,30 @@
-# MarvelApp
+# MarvelAPI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.3.
 
-## Development server
+## Objetivo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Criar uma Single Page Application de revistas em quadrinhos utilizando uma API da Marvel, demonstrar como aplicar técnicas do Angular
+e usar alguns dos componentes de Material Angular.
+Permite visualizar informações como detalhes básicos e histórias em quadrinhos.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![clean](https://user-images.githubusercontent.com/83181304/127245704-481ca0db-2a9a-4901-929d-9b0e180f8061.jpeg)
 
-## Build
+## Configurar
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Clone este repositório para sua área de trabalho e execute `npm install`  para instalar todas as dependências.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Usar
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Antes de começar, você deve adquirir uma chave de desenvolvedor https://developer.marvel.com . Depois de obter public key e private key, criar uma HASH com MD5 Hash Generator e substitua a apiKey variável app/src/ pela chave pública recém-adquirida .
+
+Execute `ng serve` para iniciar o aplicatico. Você poderá acessá-lo em `http://localhost:4200/`. 
+
+
+
 
 ## Further help
 
